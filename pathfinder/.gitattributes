@@ -1,0 +1,26 @@
+# Установка нормализации окончаний строк для всех текстовых файлов
+* text=auto
+
+# Исходный код
+*.py text
+*.md text
+*.html text
+*.css text
+*.js text
+*.json text
+*.yml text
+*.yaml text
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# Документация
+*.txt text
+*.rst text
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary 
